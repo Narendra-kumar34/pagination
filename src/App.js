@@ -13,7 +13,7 @@ function App() {
       );
       setData(res.data);
     } catch (err) {
-      console.log("failed to fetch data:", err);
+      console.log("failed to fetch data", err);
     }
   };
 
